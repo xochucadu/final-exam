@@ -20,3 +20,28 @@ Maps 1-based indexes from `list1` to values in `list2` and combines them into st
 ```plaintext
 ❌ Error: index 99 is out of bounds for list2 (size = 12)
 ✅ Result: [zjg5]
+
+# University Management System (UMS) - Task #2
+
+## Description
+Java program to manage student data and enrolled courses.
+
+## Classes
+- **`UMS`**: Manages students and prints their data.
+- **`Student`**: Stores student info (name, ID) and their courses.
+- **`LearningCourse`**: Contains course details (title, prerequisites, topics).
+
+## Nikita Bezhanovi's Courses
+| Course Title                  | Prerequisites       | Major Topics               |
+|------------------------------|--------------------|---------------------------|
+| Object-Oriented Programming  | Basic Java         | Inheritance, Polymorphism |
+| Algorithms and Data Structures | Discrete Math    | Sorting, Graphs           |
+| Computer Organization        | Digital Logic     | CPU Architecture          |
+| English Language Course C1-2 | English B2        | Academic Writing          |
+
+## UML Diagram
+![UML Diagram](link_to_your_uml_image.png)
+
+## How to Run
+1. Compile: `javac oop/final/t2/*.java`
+2. Run: `java oop.final.t2.Main`
