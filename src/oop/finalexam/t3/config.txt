@@ -1,0 +1,11 @@
+# File: config.txt
+# Configuration for the Chat-Bot application
+
+# The URL of the REST API server.
+# IMPORTANT: Ensure this URL is plain text and does NOT include any Markdown formatting (e.g., [text](url)).
+# Default: [http://max.ge/final/t3/72839461/index.php](http://max.ge/final/t3/72839461/index.php)
+rest.server.url=[http://max.ge/final/t3/72839461/index.php](http://max.ge/final/t3/72839461/index.php)
+
+# The name of the chat bot. This name will appear during the chat.
+# Default: ChatBot
+bot.name=MyAwesomeChatBot
